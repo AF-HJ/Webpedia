@@ -1,0 +1,14 @@
+body{margin:0px; border:5px black solid;}
+h1{text-align:center; border-bottom:2px black solid; margin:0px;}
+#frame ul{border-right:2px black solid; width:120px; margin:0px; padding:10px;
+          text-align:center;
+          list-style:none;
+          font-size:120%;
+          line-height:200%;
+          }
+#frame{display:grid;
+       grid-template-columns:150px auto;}
+@media(max-width:800px){#frame ul{border:none; border-bottom:2px black solid; width:auto;}
+                        #frame{display:block;}
+                        }
+a{text-decoration:none; color:black;}
