@@ -8,7 +8,7 @@ h1{text-align:center; border-bottom:2px black solid; margin:0px;}
           }
 #frame{display:grid;
        grid-template-columns:150px auto;}
-@media screen and (max-width:800px){#frame ul{border:none; border-bottom:2px black solid; width:auto;}
+@media only screen and (max-width:800px){#frame ul{border:none; border-bottom:2px black solid; width:auto;}
                         #frame{display:block;}
                         }
 a{text-decoration:none; color:black;}
